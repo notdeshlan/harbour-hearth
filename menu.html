@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Harbour &amp; Hearth, Durban</title>
+    <meta name="description" content="Coffee roasted in-house, all-day breakfast, Durban lunch classics and fresh bakes. Filter by vegetarian, vegan or gluten-free." />
+    <meta name="theme-color" content="#f8f2e9" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>document.documentElement.classList.add('js');</script>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body data-page="menu">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Harbour and Hearth, home">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#b84c33"/><path d="M11 16h15v4.5a7.5 7.5 0 0 1-15 0z" fill="#fffaf3"/><path d="M26 17.5h1.8a3 3 0 0 1 0 6H26" fill="none" stroke="#fffaf3" stroke-width="2"/><path d="M15 8.5c0 2 2 2 2 4M20 8.5c0 2 2 2 2 4" fill="none" stroke="#fffaf3" stroke-width="1.8" stroke-linecap="round"/><path d="M8 32c3-1.6 5-1.6 8 0s5 1.6 8 0 5-1.6 8 0" fill="none" stroke="#fffaf3" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></svg>
+          <span>Harbour <em>&amp;</em> Hearth</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Menu</span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" aria-current="page">Menu</a></li>
+            <li><a href="about.html">Our story</a></li>
+            <li><a class="btn btn-primary btn-small" href="contact.html">Book a table</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" data-menu>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">The menu</p>
+          <h1>Made here, every day</h1>
+          <p class="lead">Everything is cooked from scratch in our kitchen. Search for a craving, or filter by what you eat.</p>
+        </div>
+      </section>
+
+      <div class="menu-toolbar">
+        <div class="container">
+          <div class="toolbar-row">
+            <form class="search" role="search" data-menu-form>
+              <label class="sr-only" for="menu-search">Search the menu</label>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+              <input id="menu-search" type="search" placeholder="Search: eggs, oat milk, curry…" autocomplete="off" data-menu-search />
+            </form>
+            <fieldset class="diet" data-menu-diet>
+              <legend>Dietary:</legend>
+            </fieldset>
+          </div>
+          <div class="toolbar-row">
+            <div class="chips" role="group" aria-label="Menu section" data-menu-categories></div>
+            <p class="menu-count" aria-live="polite" data-menu-count></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div data-menu-results>
+          <noscript><p class="menu-note">Turn on JavaScript to browse and filter the menu, or call us on 031 555 0142.</p></noscript>
+        </div>
+        <p class="menu-note">Please tell us about any allergies when you order. Our kitchen handles nuts, gluten, dairy and shellfish, so we can't promise any dish is completely free of them. Prices in rand, VAT included.</p>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta">
+            <div>
+              <h2>Hungry already?</h2>
+              <p>Walk in any time, or book a table and we'll have it ready.</p>
+            </div>
+            <a class="btn btn-light" href="contact.html">Book a table</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="index.html">
+              <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#b84c33"/><path d="M11 16h15v4.5a7.5 7.5 0 0 1-15 0z" fill="#fffaf3"/><path d="M26 17.5h1.8a3 3 0 0 1 0 6H26" fill="none" stroke="#fffaf3" stroke-width="2"/><path d="M15 8.5c0 2 2 2 2 4M20 8.5c0 2 2 2 2 4" fill="none" stroke="#fffaf3" stroke-width="1.8" stroke-linecap="round"/><path d="M8 32c3-1.6 5-1.6 8 0s5 1.6 8 0 5-1.6 8 0" fill="none" stroke="#fffaf3" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></svg>
+              <span>Harbour <em>&amp;</em> Hearth</span>
+            </a>
+            <p class="footer-blurb">Small-batch coffee and honest food on the Durban harbourfront.</p>
+          </div>
+          <div>
+            <h3>Visit</h3>
+            <address>21 Wharf Lane<br />Harbourfront, Durban 4001<br />South Africa</address>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="tel:+27315550142">031 555 0142</a></li>
+              <li><a href="mailto:hello@harbourandhearth.example">hello@harbourandhearth.example</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">Our story</a></li>
+              <li><a href="contact.html">Book a table</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span data-year>2026</span> Harbour &amp; Hearth is a fictional café.</p>
+          <p>Portfolio project designed and built by <a href="https://www.upwork.com/freelancers/~0136f319881683d143">Deshlan P.</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
