@@ -1,5 +1,7 @@
 # Harbour & Hearth
 
+**Live site: [notdeshlan.github.io/harbour-hearth](https://notdeshlan.github.io/harbour-hearth/)**
+
 A responsive, multi-page website for a fictional café on the Durban harbourfront. It's a portfolio project showing the kind of site a small hospitality business needs: a strong first impression, a searchable menu, live opening hours and online table bookings.
 
 ![Home page](screenshots/home-desktop.png)

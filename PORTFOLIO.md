@@ -34,5 +34,5 @@ Web Design · Responsive Design · TypeScript · HTML · CSS
 
 ## Links
 
-- Live site: *add once deployed to GitHub Pages*
-- Code: *add the GitHub repository link*
+- Live site: https://notdeshlan.github.io/harbour-hearth/
+- Code: https://github.com/notdeshlan/harbour-hearth
